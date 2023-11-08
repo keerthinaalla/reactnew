@@ -1,0 +1,12 @@
+/*Main Points*/
+1.we can inject React into our app by using CDN links and through npm
+2.after creating if you want to create any tag with in the root div, we have to use React.creatElement()
+React.createElement("h1",{},"heading1") method contains tagName, tag attributes,content of the tag 
+syntax:
+const heading1=React.createElement("h1",{class:"heading1"},"heading1")
+output for this:<h1 class="heading1">heading1</h1> in the browser
+what is heading1?
+when we see console.log(heading1);--->output:a javascript Object
+finally React.createElement is an Object
+the best part of the react is, we can use React already excisting application and we can use small portion of the application
+like only in footer,header, small portion of div also by using the CDN links.
